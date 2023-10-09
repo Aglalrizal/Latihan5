@@ -178,7 +178,7 @@ img#about-img{
 
 .card{
     width: calc(100%/4);
-    height: 305px;
+    height: 315px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -200,7 +200,6 @@ img#about-img{
 
 .card-desc p{
     color: #99a0a9;
-    padding-bottom: 10px;
 }
 
 #contact{
