@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&family=Roboto&family=Rowdies:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&family=Roboto&family=Rowdies:wght@300&family=Ubuntu&display=swap"
+        rel="stylesheet">
 </head>
 <body>
     <div class="page-wrapper">
         <header>
-            <div class="title">
+            <div class="brand-name">
                 <h2>Coder</h2>
             </div>
             <nav id="nav-bar">
@@ -21,10 +23,10 @@
                         <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#">Service</a>
+                        <a href="#our-service">Service</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -67,10 +69,112 @@
                     </div>
                 </div>
             </section>
-            <section></section>
-            <section></section>
+            <section id="our-service">
+                <div class="section-header">
+                    <div>
+                        <h2 class="title">Our Service</h2>
+                        <p class="section-desc">We have the best service to solve your problem</p>
+                    </div>
+                    <div class="os-button">
+                        <button class="btn">Contact Us</button>
+                    </div>
+                </div>
+                <div class="container2">
+                    <div class="card">
+                        <img src="images/service1.png" alt="service1">
+                        <div class="card-desc">
+                            <h3>Web Application</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi excepturi similique
+                                corporis debitis et! Sed!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/service2.png" alt="service2">
+                        <div class="card-desc">
+                            <h3>UI/UX Design</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi excepturi similique
+                                corporis debitis et! Sed!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/service3.png" alt="service3">
+                        <div class="card-desc">
+                            <h3>Mobile Application</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi excepturi similique
+                                corporis debitis et! Sed!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="section-header">
+                    <div>
+                        <h2 class="title">Contact</h2>
+                        <p class="section-desc">We have the best service to solve your problem</p>
+                    </div>
+                </div>
+                <div class="container2">
+                    <div class="form">
+                        <form action="get">
+                            <h2>Tell us your problem</h2>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="table-data">
+                                            <label for="name">Name</label>
+                                            <input type="text" name="name" id="name" placeholder="Your Name">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="table-data">
+                                            <label for="subject">Subject</label>
+                                            <input type="text" name="subject" id="subject">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="table-data">
+                                            <label for="email">Email</label>
+                                            <input type="text" name="email" id="email">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="table-data">
+                                            <label for="phone-number">Phone Number</label>
+                                            <input type="text" name="phone-number" id="phone-number">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="table-data">
+                                            <label for="message">Message</label>
+                                            <input type="text" name="message" id="message">
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <button id="submit" type="submit">Submit</button>
+                        </form>
+                    </div>
+                    <div class="iframe-container">
+                        <h2 class="title">Our Location</h2>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.718465262305!2d107.44440547399358!3d-6.557180693435934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e690fb318e50ddd%3A0xce1f148ea489788e!2sTaman%20Air%20Mancur%20Sri%20Baduga!5e0!3m2!1sen!2sid!4v1696860911911!5m2!1sen!2sid"
+                            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
         </main>
-        <footer></footer>
     </div>
 </body>
+
 </html>
