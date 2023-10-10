@@ -1,5 +1,5 @@
 # Latihan 5
-Hallo, Rizal here, jadi repo ini untuk menyimpan hasil slicing figma to html & css 
+Hallo, Rizal here, jadi repo ini digunakan untuk menyimpan hasil slicing figma to html & css 
 yang merupakan salah satu tugas dari mata kuliah pemrograman internet.
 
 Berikut tautan design figma-nya:
