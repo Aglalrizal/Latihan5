@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -22,6 +22,7 @@ body {
 
 }
 
+/* styling for header */
 header {
     position: fixed;
     width: 100%;
@@ -35,7 +36,7 @@ header {
     z-index: 999;
 }
 
-header div.brand-name h2{
+header div.brand-name h2 {
     padding-left: 130px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Rowdies', cursive;
@@ -43,17 +44,17 @@ header div.brand-name h2{
     font-size: 2.5em;
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: space-between;
     padding-right: 130px;
 }
 
-header nav ul{
+header nav ul {
     list-style: none;
 }
 
-header nav ul li a{
+header nav ul li a {
     text-decoration: none;
     padding: 0.5em;
     color: black;
@@ -61,8 +62,10 @@ header nav ul li a{
     font-size: 1.2em;
 }
 
-#jumbotron, #about{
-    padding-top: 6em;
+/* styling for jumbotron */
+#jumbotron,
+#about {
+    padding-top: 7em;
     display: flex;
     justify-content: space-between;
 }
@@ -76,29 +79,29 @@ header nav ul li a{
 }
 
 .title {
-    font-size: 49px;
+    font-size: 42px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Rowdies', cursive;
     font-family: 'Ubuntu', sans-serif;
     margin-bottom: 10px;
 }
 
-.text p, .section-desc{
+.text p,
+.section-desc {
     color: #99a0a9;
     font-size: 27px;
     margin-bottom: 15px;
 }
 
-#landing-img, #about-img{
-    width: 47%;
-    height: auto;
+#landing-img {
+    width: 53%;
 }
 
-.btn-container{
+.btn-container {
     margin-top: 15px;
 }
 
-.btn{
+.btn {
     padding: 0.3em 1em;
     font-size: 1.3em;
     border: #00dfc0 solid 2px;
@@ -114,13 +117,18 @@ header nav ul li a{
     margin-right: 13px;
 }
 
-.text2{
+/*styling for about section*/
+
+.text2 {
     padding-left: 30px;
 }
-img#about-img{
+
+img#about-img {
+    width: 47%;
     height: auto;
 }
-.container{
+
+.container {
     width: 100%;
     position: relative;
     height: 120px;
@@ -129,37 +137,41 @@ img#about-img{
     flex-direction: row;
     margin-top: 40px;
 }
-.hypen{
+
+.hypen {
     position: relative;
     background-color: #00dfc0;
     height: 8px;
     width: 40px;
     margin: 15px 0;
 }
-.container div{
+
+.container div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.container div h2{
+.container div h2 {
     font-size: 38px;
     margin-bottom: 0;
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.container div p{
+.container div p {
     font-size: 20px;
     margin-bottom: 0;
     font-family: sans-serif;
 }
 
-#our-service{
+/* styling for our-service section */
+
+#our-service {
     padding-top: 75px;
     height: 510px;
 }
 
-.container2{
+.container2 {
     width: 100%;
     position: relative;
     height: 200px;
@@ -168,17 +180,17 @@ img#about-img{
     margin-top: 50px;
 }
 
-#our-service .section-header{
+#our-service .section-header {
     display: flex;
     justify-content: space-between;
 }
 
-.os-button{
+.os-button {
     display: flex;
     align-items: center;
 }
 
-.card{
+.card {
     width: calc(100%/4);
     height: 315px;
     display: flex;
@@ -187,63 +199,65 @@ img#about-img{
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
-.card img{
+.card img {
     width: 100%;
 }
 
-.card-desc{
+.card-desc {
     padding: 10px;
 }
 
-.card-desc h3{
+.card-desc h3 {
     margin: 12px 0;
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.card-desc p{
+.card-desc p {
     color: #99a0a9;
 }
 
-#contact{
+/* styling for contact section */
+
+#contact {
     padding-top: 70px;
     width: 100%;
     height: 700px;
 }
 
-.form{
+.form {
     width: 50%;
     border: #00dfc0 solid 2px;
     height: 480px;
 }
 
-.iframe-container{
+.iframe-container {
     width: 40%;
 }
 
-form table{
+form table {
     width: 100%;
 }
 
-form h2{
+form h2 {
     font-size: 30px;
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
     margin: 50px 0 30px;
 }
 
-table tr{
+table tr {
     width: 100%;
 }
 
-table tr label{
+table tr label {
     padding: 5px 0;
     display: block;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.form input{
+.form input {
     border-style: none;
     border-bottom: #000 solid 1px;
     height: 30px;
@@ -261,32 +275,35 @@ table tr label{
     width: 470px;
 }
 
-#submit{
+#submit {
     margin: 0 25px;
     width: 435px;
     background-color: #00dfc0;
     color: #fff;
     border: none;
     font-size: 14px;
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu', sans-serif;
     padding: 5px 0;
 }
 
-footer{
+/* styling for footer */
+
+footer {
     background-color: #00dfc0;
     padding: 20px 130px;
     display: flex;
     justify-content: space-between;
 }
 
-.footer-text h2{
-    font-family: 'Ubuntu';
+.footer-text h2 {
+    font-family: 'Ubuntu', sans-serif; ;
     font-size: 40px;
     margin-bottom: 10px;
 }
-footer p{
+
+footer p {
     font-size: 23px;
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu', sans-serif;
     width: 50%;
     margin-bottom: 5px;
 }
@@ -299,9 +316,11 @@ footer p{
     display: flex;
     align-items: center;
 }
-.icon a{
+
+.icon a {
     padding: 25px;
 }
-#ig-icon{
+
+#ig-icon {
     width: 48px;
 }
